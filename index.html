@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AZOV — Hamburguesería</title>
+<meta name="description" content="AZOV Hamburguesería: cocina de autor, brasa real, cada noche. Carne madurada, pan brioche horneado a diario y salsas de la casa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo">
+    <span class="nav-logo-word">AZOV</span>
+    <span class="nav-logo-tag">Hamburguesería</span>
+  </div>
+  <div class="nav-links">
+    <a href="#hero">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#historia">Historia</a>
+  </div>
+  <a href="#menu" class="btn-pill">Ver menú completo</a>
+</nav>
+
+<section id="hero" class="hero">
+  <div class="hero-sticky">
+    <div class="hero-media">
+      <video class="hero-bg-video" muted playsinline preload="auto">
+        <source src="assets/hero-scrub.mp4" type="video/mp4">
+      </video>
+      <div class="hero-media-fade"></div>
+      <div class="hero-media-vignette"></div>
+    </div>
+
+    <div class="scrub-hint reveal" data-reveal="fade-up">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      <span>Scrollea para ver la magia</span>
+    </div>
+
+    <div class="glow glow-cyan" aria-hidden="true"></div>
+    <div class="glow glow-ember" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="badge reveal" data-reveal="fade-up">
+        <span class="badge-dot"></span>
+        <span>Cocina de autor · Brasa real, cada noche</span>
+      </div>
+
+      <h1 class="hero-title reveal" data-reveal="fade-up" style="transition-delay:0.08s;">
+        Donde la brasa se vuelve leyenda
+      </h1>
+
+      <p class="hero-subtitle reveal" data-reveal="fade-up" style="transition-delay:0.18s;">
+        Carne madurada, pan brioche horneado a diario y salsas de la casa. Una experiencia nocturna, servida sin prisa.
+      </p>
+
+      <div class="hero-cta-row reveal" data-reveal="fade-up" style="transition-delay:0.28s;">
+        <a href="#menu" class="btn-pill btn-pill--lg">
+          Ver menú completo
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+        <a href="#historia" class="link-underline">Conoce nuestra historia</a>
+      </div>
+    </div>
+
+    <div class="scroll-arrow" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </div>
+  </div>
+</section>
+
+<section id="showcase" class="showcase">
+  <div class="glow glow-ember showcase-glow-1" aria-hidden="true"></div>
+  <div class="glow glow-cyan showcase-glow-2" aria-hidden="true"></div>
+
+  <div class="showcase-heading reveal" data-reveal="fade-up">
+    <span class="kicker kicker-ember">Se antoja solo con mirarla</span>
+    <h2 class="section-title">Te sigue a todos lados</h2>
+  </div>
+
+  <div id="magnet-zone" class="magnet-zone">
+    <div class="magnet-el">
+      <div class="magnet-frame">
+        <img src="assets/view-tasty-food-from-around-world-4af921ec-opt.jpg" alt="Hamburguesa AZOV flotante">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="menu">
+  <div class="menu-heading reveal" data-reveal="fade-up">
+    <span class="kicker kicker-cyan">Platos destacados</span>
+    <h2 class="section-title">Cinco maneras de rendirle culto al fuego</h2>
+  </div>
+
+  <div class="menu-grid">
+
+    <article class="card reveal tilt-card" data-reveal="fade-up">
+      <div class="card-img"><img class="tilt-img" src="assets/close-up-delicious-burger-meal-opt.jpg" alt="Doble AZOV Smash" style="object-position:center 30%;"></div>
+      <div class="card-body">
+        <div class="card-row">
+          <h3>Doble AZOV Smash</h3>
+          <span class="price">$8.900</span>
+        </div>
+        <p>Doble carne smash, cheddar añejo, salsa AZOV y pan brioche tostado en manteca.</p>
+      </div>
+    </article>
+
+    <article class="card reveal tilt-card" data-reveal="fade-up" style="transition-delay:0.06s;">
+      <div class="card-img"><img class="tilt-img" src="assets/pre-prepared-food-showcasing-ready-eat-delicious-meals-go-opt.jpg" alt="Crispy Ranch" style="object-position:center 25%;"></div>
+      <div class="card-body">
+        <div class="card-row">
+          <h3>Crispy Ranch</h3>
+          <span class="price">$7.200</span>
+        </div>
+        <p>Pollo crocante, slaw de repollo morado y alioli picante de la casa.</p>
+      </div>
+    </article>
+
+    <article class="card reveal tilt-card" data-reveal="fade-up" style="transition-delay:0.12s;">
+      <div class="card-img"><img class="tilt-img" src="assets/view-tasty-food-from-around-world-opt.jpg" alt="Envuelto de Brasa" style="object-position:center 35%;"></div>
+      <div class="card-body">
+        <div class="card-row">
+          <h3>Envuelto de Brasa</h3>
+          <span class="price">$7.800</span>
+        </div>
+        <p>Corte a la parrilla, vegetales frescos y dos salsas envueltos a mano.</p>
+      </div>
+    </article>
+
+    <article class="card reveal tilt-card" data-reveal="fade-up" style="transition-delay:0.18s;">
+      <div class="card-img"><img class="tilt-img" src="assets/view-tasty-shawarma-dish-opt.jpg" alt="Street Dog Trufa" style="object-position:center 40%;"></div>
+      <div class="card-body">
+        <div class="card-row">
+          <h3>Street Dog Trufa</h3>
+          <span class="price">$6.400</span>
+        </div>
+        <p>Salchicha ahumada, mayo trufada, cilantro fresco y un toque de chimichurri.</p>
+      </div>
+    </article>
+
+    <article class="card reveal tilt-card" data-reveal="fade-up" style="transition-delay:0.24s;">
+      <div class="card-img"><img class="tilt-img" src="assets/street-food-still-life-opt.jpg" alt="Clásica AZOV" style="object-position:center 30%;"></div>
+      <div class="card-body">
+        <div class="card-row">
+          <h3>Clásica AZOV</h3>
+          <span class="price">$8.200</span>
+        </div>
+        <p>Carne madurada, queso, pepinillo agrio y papas rústicas recién fritas.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="historia" class="historia">
+  <div class="historia-grid">
+    <div class="reveal" data-reveal="fade-up">
+      <span class="kicker kicker-ember">Nuestra historia</span>
+      <h2 class="historia-title">Nacimos en la calle, crecimos en la brasa</h2>
+      <p class="historia-text">AZOV empezó como un carrito de esquina, una parrilla y la terquedad de no usar atajos. Cada receta se cocinó primero para amigos, se ajustó cien veces y recién entonces llegó a la carta.</p>
+      <p class="historia-text">Hoy seguimos igual: fuego real, pan horneado a diario y una sala pensada para quedarse hasta tarde. Sin prisa, sin fórmulas — solo buen sabor.</p>
+    </div>
+    <div class="historia-media reveal" data-reveal="fade-up" style="transition-delay:0.1s;">
+      <img class="story-img" src="assets/close-up-delicious-burger-meal-opt.jpg" alt="AZOV, cocina de brasa">
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span class="footer-logo">AZOV</span>
+  <span class="footer-meta">Abierto de martes a domingo, 18:00 – 01:00</span>
+  <span class="footer-meta">&copy; 2026 AZOV Hamburguesería</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
