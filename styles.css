@@ -48,15 +48,12 @@ img { max-width: 100%; display: block; }
   50% { opacity: 1; }
 }
 
-/* ---------- Reveal on scroll ---------- */
+/* ---------- Reveal on scroll ----------
+   Initial hidden state only; the reveal transition itself is driven by
+   motion's animate()/inView() in script.js, not CSS. */
 .reveal {
   opacity: 0;
   transform: translateY(24px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-}
-.reveal.is-visible {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 /* ---------- Shared pieces ---------- */
@@ -474,5 +471,5 @@ img { max-width: 100%; display: block; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .glow, .badge-dot, .scroll-arrow { animation: none; }
-  .reveal, .card, .magnet-el, .card-img img { transition: none; }
+  .card, .magnet-el, .card-img img { transition: none; }
 }
